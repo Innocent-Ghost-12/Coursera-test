@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+.main-header{
+    text-align: center;
+    font-size: 1.75em;
+}
+.allincludeone{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 20px 0px;
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+}
+.allincludetwo{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 20px 0px;
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+}
+.allincludethree{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 20px 0px;
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+}
+p{
+    margin-top: 0px;
+    overflow: hidden;
+}
+span{
+    float: right;
+    padding: 3px 20px;
+    margin-top: -2px;
+    margin-right: -3px;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+.content{
+    margin-top: -10px;
+    padding: 0px 15px;
+}
+.chicken{
+    background-color: lightcoral;
+}
+.beef{
+    background-color: firebrick;
+    color: white;
+}
+.sushi{
+    background-color: wheat;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+.allincludeone{
+    width: 48%;
+}
+.allincludetwo{
+    width: 48%;
+}
+.allincludethree{
+    width: 97%;
+}
+}
+@media only screen and (max-width: 767px){
+    .allincludeone{
+        width: 97%;
+        float: none;
+    }
+    .allincludetwo{
+        width: 97%;
+        float: none;
+    }
+    .allincludethree{
+        width: 97%;
+        float: none;
+    }
+
+}
