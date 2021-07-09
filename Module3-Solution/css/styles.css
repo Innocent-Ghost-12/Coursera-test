@@ -1,0 +1,22 @@
+body{
+  background-color: #f0f8ff;
+}
+#nav-nav{
+  background-color: #faebd7;
+}
+#navbarSupportedContent{
+  background-color:	#F0E68C;
+}
+#comp-name{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#menu{
+  font-weight: 400; 
+  font-size: 2.25rem;
+}
+#os{
+  background-color: aqua;
+  margin-top: 20px;
+  padding: 10px;
+}
